@@ -1,0 +1,61 @@
+/* Header */                                                                                                                                      
+.header {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    display: block;
+    background-image: url("image.jpg");
+    color: white;
+}
+
+.header h1 {
+    flex-shrink: 3;
+}
+
+/* Style the top navigation bar */                                                                                                                           
+.navbar {
+    display: flex;
+    background-color: #333;
+    /*padding: 10px 10px;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Style the navigation bar links */                                                                                                                         
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 3;
+}
+
+/* Change color on hover */                                                                                                                                  
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Content*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+    overflow-y: auto
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto
+}
